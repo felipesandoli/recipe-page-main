@@ -89,6 +89,7 @@ body {
 
 .prep-time {
     padding: 28px;
+    background-color: var(--Rose-White);
 }
 
 /* List */
