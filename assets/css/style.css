@@ -1,18 +1,80 @@
-/* Root colors */
+/* Root colors and fonts */
 
 :root {
-    --Nutmeg: hsl(14, 45%, 36%);
+    --Nutmeg: hsl(14, 45%, 36%); /* Brandy Red */
     --Dark-Raspberry: hsl(332, 51%, 32%);
     --White: hsl(0, 0%, 100%);
-    --Rose-White: hsl(330, 100%, 98%);
+    --Rose-White: hsl(330, 100%, 98%); /* Snow */
     --Eggshell: hsl(30, 54%, 90%);
-    --Light-Grey: hsl(30, 18%, 87%);
+    --Light-Grey: hsl(30, 18%, 87%); /* White Coffe */
     --Wenge-Brown: hsl(30, 10%, 34%);
     --Dark-Charcoal: hsl(24, 5%, 18%);
 }
 
-/* overall page */
+@font-face {
+    font-family: "YoungSerif";
+    src: url("../fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+/* Overall page */
 
 body {
-    padding: 40px;
+    margin: 40px;
 }
+
+/* Hero image */
+
+.hero-image {
+    width: 100%;
+    object-fit: fill;
+}
+
+/* Text */
+
+.heading-l {
+    font-family: "YoungSerif";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--Dark-Charcoal);
+}
+
+.heading-m {
+    font-family: "YoungSerif";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--Nutmeg);
+}
+
+.heading-s {
+    font-family: "Outfit";
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 600;
+    color: var(--Dark-Raspberry);
+}
+
+.body-reg {
+    font-family: "Outfit";
+    font-size: 16;
+    line-height: 100%;
+    font-weight: 400;
+    color: var(--Wenge-Brown);
+}
+
+.body-bold {
+    font-family: "Outfit";
+    font-size: 16;
+    line-height: 100%;
+    font-weight: 700;
+    color: var(--Wenge-Brown);
+}
+
+
+
