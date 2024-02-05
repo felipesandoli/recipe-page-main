@@ -32,6 +32,7 @@ body {
 .hero-image {
     width: 100%;
     object-fit: fill;
+    border-radius: 12px;
 }
 
 /* Text */
@@ -62,19 +63,35 @@ body {
 
 .body-reg {
     font-family: "Outfit";
-    font-size: 16;
+    font-size: 16px;
     line-height: 100%;
-    font-weight: 400;
+    font-weight:normal;
     color: var(--Wenge-Brown);
 }
 
 .body-bold {
     font-family: "Outfit";
-    font-size: 16;
+    font-size: 16px;
     line-height: 100%;
-    font-weight: 700;
+    font-weight: bold;
     color: var(--Wenge-Brown);
 }
 
+.ml-16 {
+    margin-left: 16px;
+}
 
+/* List */
+ol, ul {
+    padding: 0;
+}
 
+li {
+    font-family: "Outfit";
+    font-weight: bold;
+    color: var(--Nutmeg);
+}
+
+::marker {
+    margin-left: 8px;
+}
