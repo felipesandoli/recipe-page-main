@@ -10,3 +10,9 @@
     --Wenge-Brown: hsl(30, 10%, 34%);
     --Dark-Charcoal: hsl(24, 5%, 18%);
 }
+
+/* overall page */
+
+body {
+    padding: 40px;
+}
