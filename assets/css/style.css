@@ -21,18 +21,22 @@
     src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf");
 }
 
-/* Overall page */
+/* Hero image */
 
-body {
+.hero-image-div {
     margin: 40px;
 }
-
-/* Hero image */
 
 .hero-image {
     width: 100%;
     object-fit: fill;
     border-radius: 12px;
+}
+
+/* Content */
+
+.content-div {
+    margin: 0 40px;
 }
 
 /* Text */
@@ -77,12 +81,50 @@ body {
     color: var(--Wenge-Brown);
 }
 
+.body-bold-nutmeg {
+    font-family: "Outfit";
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: bold;
+    color: var(--Nutmeg);
+}
+
+/* General properties */
+
+/* Margins */
+
 .ml-16 {
-    margin-left: 16px;
+    margin: 16px;
 }
 
 .ml-28 {
-    margin-left: 28px;
+    margin: 28px;
+}
+
+/* paddings */
+
+.pl-16 {
+    padding-left: 16px;
+}
+
+.pl-28 {
+    padding-left: 28px;
+}
+
+.pl-32 {
+    padding-left: 32px;
+}
+
+.py-32 {
+    padding: 32px 0;
+}
+
+.pb-32 {
+    padding-bottom: 32px;
+}
+
+.pt-32 {
+    padding-top: 32px;
 }
 
 /* Preparation time */
@@ -105,4 +147,23 @@ li {
 
 ::marker {
     margin-left: 8px;
+}
+
+/* Table */
+
+table {
+    width: 100%;
+}
+
+/* Attribution */
+
+.attribution {
+    font-size: 11px; text-align: center;
+    margin-top: 40px;
+}
+
+.attribution a {
+    color: var(--Nutmeg);
+    font-family: "Outifit";
+    font-weight: bold;
 }
