@@ -21,6 +21,11 @@
     src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf");
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Hero image */
 
 .hero-image-div {
@@ -68,7 +73,7 @@
 .body-reg {
     font-family: "Outfit";
     font-size: 16px;
-    line-height: 100%;
+    line-height: 1.6;
     font-weight:normal;
     color: var(--Wenge-Brown);
 }
@@ -166,4 +171,25 @@ table {
     color: var(--Nutmeg);
     font-family: "Outifit";
     font-weight: bold;
+}
+
+/* Mobile */
+
+@media screen and (max-width:600px) {
+    /* Hero Image */
+
+    .hero-image-div {
+        margin: 0px;
+    }
+
+    .hero-image {
+        border-radius: 0;
+    }
+
+    /* Headings */
+
+    .heading-l {
+        font-size: 32px;
+    }
+
 }
