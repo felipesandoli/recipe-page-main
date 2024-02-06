@@ -22,8 +22,8 @@ Recipe Page created as a solution for Frontend Mentor Challenge
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://felipesandoli.github.io/recipe-page-main/)
+- Solution Repository URL: [https://github.com/felipesandoli/recipe-page-main](https://github.com/felipesandoli/recipe-page-main)
+- Live Site URL: [https://felipesandoli.github.io/recipe-page-main/](https://felipesandoli.github.io/recipe-page-main/)
 
 ## My process
 
